@@ -8,8 +8,8 @@ function playGame() {
         resultDiv.innerHTML = "Por favor MAURAO, insira um número válido entre 0 e 5.";
         return;
     }
-
-    // Número aleatório do computador (0 a 5)
+    // Alteraçao 01 de 03
+    // Número aleatório do computador (0 a 4)
     const computerNumber = Math.floor(Math.random() * 6);
     const sum = playerNumber + computerNumber;
     const isEven = sum % 2 === 0;
