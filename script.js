@@ -26,3 +26,4 @@ function playGame() {
 
     resultDiv.innerHTML = resultText;
 }
+// Quarto Commit para finalizar
