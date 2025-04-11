@@ -5,7 +5,7 @@ function playGame() {
 
     // Validação do número do jogador
     if (isNaN(playerNumber) || playerNumber < 0 || playerNumber > 5) {
-        resultDiv.innerHTML = "Por favor, insira um número válido entre 0 e 5.";
+        resultDiv.innerHTML = "Por favor MAURAO, insira um número válido entre 0 e 5.";
         return;
     }
 
